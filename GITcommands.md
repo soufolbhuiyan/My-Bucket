@@ -6,7 +6,7 @@ cd
 
 dir
 
-dir /a
+dir /a (to see hidden files)
 
 <!-- Init Command -->
 
@@ -34,3 +34,22 @@ git checkout <-branch name-> (to navigate)
 git checkout -b <-new branch name-> (to create new Branch)
 
 git branch -d <-branch name-> (to delete branch)
+
+
+:to Undo
+
+git reset <-filename->
+
+git reset
+
+git reset HEAD~1
+
+git log
+
+git reset <-HASH->
+
+git reset --hard<-HASH-> (it will undo in vs code too)
+
+
+:Fork (rough copy of other people project to my account)
+
